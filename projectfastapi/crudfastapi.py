@@ -1,5 +1,5 @@
 from fastapi import FastAPI 
-from DBcon.pool_connection import get_cursor_connection
+from dbConnection.pooling_connection import get_cursor_connection
 from pydantic import BaseModel,ValidationError
 
 app=FastAPI()
