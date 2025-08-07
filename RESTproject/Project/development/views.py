@@ -46,6 +46,7 @@ class StudentDetail(APIView):
             return Response({"message": "Deleted Successfully"})
         except Student.DoesNotExist:
             return Response({"error": "Student not found"})
+            
 
 
 
